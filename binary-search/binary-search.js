@@ -2,6 +2,8 @@
 
 // Complete this algo
 const binarySearch = (array, target) => {
+  // let floor = 0
+  // let ceil = 0
   if (array.length <= 1 && array[0] !== target) {
     return false;
   } else {
